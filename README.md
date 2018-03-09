@@ -44,3 +44,9 @@ n - executes current line and stops before the next line
 c - continues executing until hitting another breakpoint
 
 p - print registers, PC and IR
+
+## Notes:
+
+Do not store to addresses past 0x10000000. First of all, this is *terrible* practice (stack ptr). Second of all, memory in the emulator was not initialized past 0x10000000 so you will crash the program.
+
+I also need to figure out putChar() and getChar() before you can use sw(0xffff000c) and lw(0xffff0004).
