@@ -1,8 +1,5 @@
 class MIPS_machine:
     def __init__(self):
-        """
-        self.memory = an array of 32 bit integers
-        """
         self._debug_mode = False
         self._breakpoints = set()
         self._break = False
@@ -11,7 +8,7 @@ class MIPS_machine:
         self._hi = 0
         self._lo = 0
         self._PC = 0
-        self._IR = None
+        self._IR = 0
 
     def _initialize(self):
         """
