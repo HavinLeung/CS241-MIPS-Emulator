@@ -21,7 +21,7 @@ If you are not debugging, you will be prompted the file name and then for two in
 Your program will run and if it doesn't crash, it will output all the registers at the end.
 
 
-![sample program](./readme_images/sample.png?raw=true "sample run")
+![sample program](./readme_images/sample.png "sample run")
 
 
 ### 2.1 - Breakpoints
@@ -29,11 +29,11 @@ If you choose to use debug mode, you will be prompted for a list of breakpoints.
 
 For example:
 
-![breakpoints](./readme_images/breakpoints.png?raw=true "setting breakpoints")
+![breakpoints](./readme_images/breakpoints.png "setting breakpoints")
 
 
 
-![breakpoints 1](./readme_images/breakpoints_1.png?raw=true "explanation of breakpoints")
+![breakpoints 1](./readme_images/breakpoints_1.png "explanation of breakpoints")
 
 ### 2.2 - Debug commands
 
